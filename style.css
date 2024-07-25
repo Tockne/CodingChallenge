@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image:url("./background.jpg");
+  background-size: cover;
+}
+.container {
+  width: 800px;
+  height: 565px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 17px;
+  margin-left: 232px;
+  margin-right: 232px;
+  border-radius: 20px;
+}
+
+.container2{
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+header {
+  text-align: center;
+}
+
+header > img {
+  width: 170px;
+  margin-top: 70px;
+}
+
+header > h1{
+  color:rgb(0, 255, 0);
+  font-size: 20px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  font-weight:550;
+}
+
+div.row {
+  background-color: rgba(40, 207, 40, 1);
+  padding: 5px;
+}
+
+div.row > a {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 1px 7px 1px;
+  font-size: 9px;
+}
+
+main {
+  color: white;
+}
+
+nav > input[type=checkbox]{
+  size: 7px
+}
+
+nav > h2 {
+  display: inline-block;
+  font-size: 15px;
+  font-weight:600;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+nav > p {
+  font-size: 10px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+nav.scooter1 > div.charge {
+  background-color: #d7a74e;
+  height: 20px;
+  border-radius: 4px;
+  width: 255px;
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
+
+nav.scooter2 > div.charge {
+  background-color: #23b623;
+  height: 20px;
+  border-radius: 4px;
+  width: 420px;
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
+
+nav.scooter3 > div.charge {
+  background-color: #ce5151;
+  height: 20px;
+  border-radius: 4px;
+  width: 115px;
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
